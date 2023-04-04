@@ -2,7 +2,7 @@
 
 This was made to explore the capabilities of current NLP architectures for language generation in the low-resource Filipino language.
 
-Check out all the details in the [research paper](https://ffd6057631f7079ae73072492b526b4cf7ddbac3100a71a2487e6f9-apidata.googleusercontent.com/download/storage/v1/b/public-kenricklancebunag/o/Transformer-based%20Conditional%20Language%20Models%20-%20IEOM%20Submission.pdf?jk=Ac_6HjJwZmSk_Quyxf7rKKQwLJiNz7216Xs4a9WxJ2w13rwrLHOZw_2Q2JyrwGEAvj3myYUIeVTWJwdbpb2BBHwTbVlDhTb073-6v8FfwcByNjqok6ShiZxkAFQW7NPZfPmtCluJQ7kJvYOE_th1dEfMR5IQAdJQ-n6jHmKNA9mPEVUsJU5ofoWpubL1ARh499uIEZw7oyuZZhTJm58F8f0PdJGdQbGRgVwbVIydUUXjST2hh2pbsWFx-C3S65l4HILOzxvRSh8UWFCfsATTu0UmLXQJQZelXnmb6U3e63UdxhTt914yjqGH7gSAfoKJsIdskW6LKPXuWjgQPVhkcdUO6KtHCWdSP1jwj_y4Jvd7nP7LNyLAeakZ-raVz75kBGZQgtm9b5Yv9MR2NVfBTe5Tq03VKg7rE5btvWBsSfaTMj7SqaCPQSDfikPcdTitA556alAsykwPQ6hSHy-GomMiNcyxVFB46x7xlJldi2QNFn9NCcCEYYiIbig8Qea5ibdALzp5AIA6tvWMJkhdEi82MYuD9ei29XaW5HdD9vCcw8OraPs8TzuG82nDRV0sakVHV2M2lN9tlFgGNekqF4aYp30UrkIrf1NiwVJ-fP2rHJap8PLLATUv6FqBKeXUFAYZCEJM5LKd2yrg-Ew4u4hCdlAnGQly2dSHuSm1eMYu74g57dAreQYjCc9ZNA2v1EQPOk4USgMHOriNNHvtDcsD9f_Kq831PZT2yxGTgG_ka9sm3woOQp0SKKFTDwdSisBxTcrGkPAV0z4XqufjGT-5KB-A0_pFAUVSsvEZ2Kou5gaZe7W5NwiniuTvFhpvqRo520ye3of24A0ozpmvX6Tke74wW8PkrrvRc7FKRSgPo5jkLt2rDw7lSRhBKdihE0FjsktgV9EdCTnXsZSuVr9qZVIpXp46vvUI29QsucFmq3dI-LUHaELgQDEkhFmGbc50w0qGqYUItCHPyPbq63dTVSv0JlP0GTnd75zQ41URLI_BzzlJUbukgSUMLAd0hXxiOQ9xYLTQam7wUhw_ds05EQvUzT-ey8uKdJivdqtzSmId6vyc3P2NTGir309RwO4tJVmDwrSRYva1AdcP_ocu5CS1iocdq5KKt6svjrg9FFH29T9Hsjco6wJ05lwuqZESKsiiqwtGN83sV5DBZ8t1Ne0f2cPD9wD1DEIwvzV0yyfS9KQaOJWq9jYeIgJBR22eIbfv-m-GK8y961RHxSYftuzu0gzUlEp2KwJz2bM1me9ZeUuiNTGWHU5F6FKoDP1_stwSMetQ9EZJ7inlRZqsyDg_Vz-fmnsAYUSt_ozJfcVoOFymd6RnlDGtp37TRmqKulxbznbk3YyFmS8om3RVN36QItECY3zUFc5_YQ&isca=1)!
+Check out all the details in the [research paper](https://storage.googleapis.com/public-kenricklancebunag/Transformer-based%20Conditional%20Language%20Models%20-%20IEOM%20Submission.pdf)!
 
 ## Table of Contents
 * [The Model](#model)
@@ -41,7 +41,10 @@ Built with: Django, Vue
 
 2. Install the requirements
 
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu116
+```
 
 ## Usage
 1. Download the model
