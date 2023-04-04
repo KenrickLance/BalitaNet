@@ -68,4 +68,4 @@ Built with: Django, Vue
 
 ## Credits
 
-Big thanks to the TPU Research Cloud programfor allowing me to train on their cloud TPUs for free.
+Big thanks to the TPU Research Cloud program for allowing me to train on their cloud TPUs for free.
