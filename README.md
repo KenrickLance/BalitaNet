@@ -11,15 +11,11 @@ Check out all the details in the [research paper](https://ffd6057631f7079ae73072
 * [Usage](#usage)
 * [Credits](#credits)
 
-***
-
 ## Model
 
 The language model is based on GPT-2 with the [Pseudo-Self-Attention](https://arxiv.org/pdf/1908.06938.pdf) mechanism integrated in to allow it to generate based on news images and categories. A GPT-2 model was acquired that was pretrained on a large corpus of Filipino text. It was then fine-tuned on the BalitaNLP dataset for image and class conditional text generation. The model was then trained for 2 weeks on Cloud TPUs
 
 Built with: Python, Pytorch, Huggingface
-
-***
 
 ## WebApp
 
@@ -38,8 +34,6 @@ Built with: Django, Vue
 **You can upload your own image and give a title and prompt to start off the article OR you can use one of the sample images**
 
 <img src="./readme_images/Form.png" width="65%" />
-
-***
 
 ## Installation
 
