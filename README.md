@@ -37,7 +37,7 @@ Built with: Django, Vue
 
 ## Installation
 
-1. Install [python 3.9](https://www.python.org/downloads/){target="_blank"}
+1. Install [python 3.9](https://www.python.org/downloads/)
 
 2. Install the requirements
 
