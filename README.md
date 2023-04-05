@@ -2,7 +2,7 @@
 
 This was made to explore the capabilities of current NLP architectures for language generation in the low-resource Filipino language.
 
-Check out all the details in the [research paper](https://storage.googleapis.com/public-kenricklancebunag/Transformer-based%20Conditional%20Language%20Models%20-%20IEOM%20Submission.pdf){:target="_blank"}!
+Check out all the details in the [research paper](https://storage.googleapis.com/public-kenricklancebunag/Transformer-based%20Conditional%20Language%20Models%20-%20IEOM%20Submission.pdf)!
 
 ## Table of Contents
 * [The Model](#model)
@@ -13,7 +13,7 @@ Check out all the details in the [research paper](https://storage.googleapis.com
 
 ## Model
 
-The language model is based on GPT-2 with the [Pseudo-Self-Attention](https://arxiv.org/pdf/1908.06938.pdf) mechanism integrated in to allow it to generate based on news images and categories. A GPT-2 model was acquired that was pretrained on a large corpus of Filipino text. It was then fine-tuned on the [BalitaNLP](https://github.com/KenrickLance/BalitaNLP-Dataset){:target="_blank"} dataset for image and class conditional text generation. The model was then trained for 2 weeks on Cloud TPUs
+The language model is based on GPT-2 with the [Pseudo-Self-Attention](https://arxiv.org/pdf/1908.06938.pdf) mechanism integrated in to allow it to generate based on news images and categories. A GPT-2 model was acquired that was pretrained on a large corpus of Filipino text. It was then fine-tuned on the [BalitaNLP](https://github.com/KenrickLance/BalitaNLP-Dataset) dataset for image and class conditional text generation. The model was then trained for 2 weeks on Cloud TPUs
 
 Built with: Python, Pytorch, Huggingface
 
