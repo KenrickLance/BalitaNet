@@ -13,7 +13,7 @@ Check out all the details in the [research paper](https://storage.googleapis.com
 
 ## Model
 
-The language model is based on GPT-2 with the [Pseudo-Self-Attention](https://arxiv.org/pdf/1908.06938.pdf) mechanism integrated in to allow it to generate based on news images and categories. A GPT-2 model was acquired that was pretrained on a large corpus of Filipino text. It was then fine-tuned on the BalitaNLP dataset for image and class conditional text generation. The model was then trained for 2 weeks on Cloud TPUs
+The language model is based on GPT-2 with the [Pseudo-Self-Attention](https://arxiv.org/pdf/1908.06938.pdf) mechanism integrated in to allow it to generate based on news images and categories. A GPT-2 model was acquired that was pretrained on a large corpus of Filipino text. It was then fine-tuned on the [BalitaNLP](https://github.com/KenrickLance/BalitaNLP-Dataset) dataset for image and class conditional text generation. The model was then trained for 2 weeks on Cloud TPUs
 
 Built with: Python, Pytorch, Huggingface
 
