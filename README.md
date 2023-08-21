@@ -58,6 +58,7 @@ python download_model.py`
 3. Build the vue project
 
 `npm install`
+
 `npm run build`
 
 4. Navigate to project folder
