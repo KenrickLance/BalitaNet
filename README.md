@@ -42,33 +42,31 @@ Built with: Django, Vue
 2. Install the requirements
 
 ```
-> pip install -r requirements.txt
-> pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu116
+pip install -r requirements.txt
+pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu116
 ```
 
 ## Usage
 1. Download the model
 
-`> python download_model.py`
+python download_model.py`
 
 2. Navigate to the vue frontend folder
 
-`> cd project/frontend`
+`cd project/frontend`
 
 3. Build the vue project
 
-```
-> npm install
-> npm run build
-```
+`npm install`
+`npm run build`
 
 4. Navigate to project folder
 
-`>cd ../`
+`cd ../`
 
 5. Run the django server
 
-`>python manage.py runserver`
+`python manage.py runserver`
 
 6. Open the local development server url
 
